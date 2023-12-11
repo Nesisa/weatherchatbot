@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Chatbot</title>
+    <title>Chat Form</title>
 </head>
 <body>
-    <h1>Weather Chatbot</h1>
-    <form action="/get_response" method="post">
-        <label for="user_query">Ask me about the weather:</label>
-        <input type="text" id="user_query" name="user_query" required>
-        <button type="submit">Submit</button>
+    <h1>Chat Form</h1>
+    <form action="/submit_chat" method="post">
+        <label for="message">Your Message:</label>
+        <input type="text" id="message" name="message" required>
+        <button type="submit">Send</button>
     </form>
-    <div id="response"></div>
 </body>
 </html>
+
